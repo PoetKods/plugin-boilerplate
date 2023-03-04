@@ -77,3 +77,5 @@ add_action(
 function pk(): \Pk\Common\Functions {
 	return new \Pk\Common\Functions();
 }
+
+require 'functions/query-functions.php';
