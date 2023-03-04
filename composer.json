@@ -1,0 +1,34 @@
+{
+    "name": "wpstrap/wordpress-plugin-boilerplate",
+    "description": "Wordpress Plugin Boilerplate",
+    "version": "0.3.1",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "homepage": "https://wp-strap.com",
+    "autoload": {
+        "psr-4": {
+            "Pk\\": "src/"
+        }
+    },
+    "scripts": {},
+    "require": {
+        "php": ">=7.1",
+        "micropackage/requirements": "^1.0"
+    },
+    "require-dev": {},
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "boilerplate",
+        "framework"
+    ],
+    "authors": [
+        {
+            "name": "WP-Strap",
+            "email": "hello@wp-strap.com",
+            "homepage": "https://wp-strap.com"
+        }
+    ]
+}
