@@ -14,8 +14,10 @@
     },
     "scripts": {},
     "require": {
-        "php": ">=7.1",
-        "micropackage/requirements": "^1.0"
+        "php": ">=7.4",
+        "micropackage/requirements": "^1.0",
+        "tightenco/collect": "^8.83",
+        "nesbot/carbon": "2.52.0"
     },
     "require-dev": {},
     "keywords": [
